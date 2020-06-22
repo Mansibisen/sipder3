@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            background-image:url('back2.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover; 
+        }
+        .form{
+            text-align: center;
+            margin-top: 200px;
+            margin-bottom: 200px;
+            font-size: 25px;
+            color: blanchedalmond;
+        }
+        #text{
+            width: 50%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+    #submit{
+       
+        
+        
+        background-color: #9400D3;
+        color: honeydew;
+        
+        cursor: pointer;
+        
+        width: 25%;
+       
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        
+}
+
+
+    
+    </style>
+</head>
+<body>
+    
+    <form class = 'form' action="/sign_up" method="post">
+        <label>Name:</label><br>
+        <input id='text'type ='text'name="name" required><br><br>
+        <label>Phone No.</label><br>
+        <input id='text'type = 'tel' placeholder="123-456-789" name="phone" required><br><br>
+        <label>Email ID</label><br>
+        <input  id ='text'type ='email' name="email" required><br><br>
+        <label>Password</label><br>
+        <input  type="password" name="password"
+			id="text" placeholder="Password " required/><br>
+        <input type="submit" id="submit"
+			name="submitDetails" value="Submit" />
+    </form>
+    
+
+    
+</body>
+</html>

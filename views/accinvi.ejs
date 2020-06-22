@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+         html{
+            background-color:#c8a2c8;}
+        #h3{
+            text-align:right;
+            background-color: #F148FB;
+        }
+        #h2{text-align: center;
+        background-color: #F148FB;}
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+   <div>
+       <h1>All THE  ARTICLES</h1>
+       <h5> total no. posted : <%=data.num%></h5>
+       
+       <% for( var i=0; i< 10; i++){%>
+           <h2 id="h2"><%=data.value2[i]%></h2>
+           <p><%=data.value[i]%></p>
+           <h3 id = "h3">  <%=data.value3[i]%></h3>
+       <%}%>
+   </div>
+    
+</body>
+<script>
+    document.getElementById('h6').innerText
+</script>
+
+</html>

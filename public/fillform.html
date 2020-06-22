@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            background-color:#c8a2c8;
+        }
+        .form{
+            text-align: center;
+            margin-top: 200px;
+            margin-bottom: 200px;
+            font-size: 25px;
+            color: blanchedalmond;
+        }
+        #text{
+            width: 50%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+    #submit{
+       
+        
+        
+        background-color: #9400D3;
+        color: honeydew;
+        
+        cursor: pointer;
+        
+        width: 25%;
+       
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        
+}
+
+    </style>
+</head>
+<body>
+    <form action="/send" method='post' class ='form'>
+        <label >HEADER:</label><br>
+        <input name = 'header' value ='.' type='text' id ='text'><br><br>
+        
+        <textarea name = 'content' rows="40" cols="100" id = 'textarea'>CONTENT</textarea><br><br>
+        <label >BY:</label><br>
+        <input name = 'username' value ='xyz' type='text' id ='text'><br><br>
+        
+        
+
+        <input type = 'submit' value ='submit' id = 'submit'><br>
+    </form>
+</body>
+</html>

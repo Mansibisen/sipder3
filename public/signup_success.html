@@ -1,0 +1,74 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title> Signup Form</title> 
+<style>
+ html{
+    background-color: #c8a2c8;
+ }
+ #submit1{
+       
+        
+        
+	   background-color: #9400D3;
+	   color: honeydew;
+	   
+	   cursor: pointer;
+	   
+	   width: 25%;
+	  
+	   padding: 14px 20px;
+	   margin: 8px 0;
+	   border: none;
+	   border-radius: 4px;
+	   
+}
+
+
+
+
+.container{
+	
+	width:50%;
+	height: 500px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	color:white;
+	background-attachment: fixed;
+	background-image: url('images.jpg');
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+</style>
+</head>
+<body>
+	
+	<form action = '/check' method ='POST'>
+		<input type='submit'  id = "submit1" value ='PROFILE' >
+	</form><br>
+	<form action = '/check2' method ='POST'>
+		<input type='submit'  id = "submit1"  value ='SEARCH' >
+	</form><br>
+	<form action = '/check3' method ='POST'>
+		<input type='submit'  id = "submit1" value ='FEED' >
+	</form><br>
+	<form action = '/logout' method ='POST'>
+		<input type='submit' id = "submit1"  value ='LOG_OUT' >
+	</form><br>
+	 
+
+<br><br><br><br>
+<a href='fillform.html'><div class = 'container' >
+	<h1>CREATE</h1>
+	<br>
+	<h1>AN</h1>
+	<br><br>
+	<h1>ARTICLE</h1>
+	<br><br>
+</div></a>
+	
+		
+</body> 
+</html> 
